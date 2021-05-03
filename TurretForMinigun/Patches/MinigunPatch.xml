@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAttributeSet">
+				<xpath>/Defs/ThingDef[defName = "Gun_Minigun"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>BaseWeaponTurret</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Gun_Minigun"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/minigun_top</texPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Gun_Minigun"]/description</xpath>
+				<value>
+					<description>A multi-barrel machine gun made to be mounted on a turret.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Gun_Minigun"]/verbs/li/burstShotCount</xpath>
+				<value>
+					<burstShotCount>36</burstShotCount>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Gun_Minigun"]/verbs/li/ticksBetweenBurstShots</xpath>
+				<value>
+					<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Gun_Minigun"]/weaponTags</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Gun_Minigun"]/equippedStatOffsets</xpath>
+			</li>		
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Gun_Minigun"]/tools</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Gun_Minigun"]/soundInteract</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Gun_Minigun"]/thingSetMakerTags</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Gun_Minigun"]/costList</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Gun_Minigun"]/recipeMaker</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Gun_Minigun"]/statBases/WorkToMake</xpath>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

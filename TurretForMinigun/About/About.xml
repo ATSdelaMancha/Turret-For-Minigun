@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Turret for Minigun</name>
+	<author>ATSdelaMancha</author>
+	<packageId>ATSdelaMancha.TurretForMinigun</packageId>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<description>This mod changes the default minigun to be a turret-mounted weapon instead of a hand-held weapon. This makes it a little closer to the real-world version. This also fills an empty niche in the base game, namely a manned direct-fire turret. As a trade-off for the loss of mobility, and for the new power requirement, its rate of fire and burst are increased.</description>
+</ModMetaData>

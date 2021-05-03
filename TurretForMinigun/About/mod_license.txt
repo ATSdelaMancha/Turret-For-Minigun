@@ -1,0 +1,1 @@
+License: this mod is hereby freely licensed to any and all persons who wish to use it, provided that 1) it is used for modding Rimworld, as defined in the End User License Agreement (EULA) for Rimworld, and 2) this license is restricted by all of the terms of the EULA, insofar as I, the creator of this mod, am myself bound by the EULA.
